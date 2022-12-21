@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    margin-left: 330px;
+}
+
+.title_part{
+    width: 65%;
+    height: 180px;
+    background-color: rgb(235, 232, 232);
+    text-align:center;
+    position: relative;
+    z-index: 1;
+    
+}
+
+h1{
+    margin-top: 0;
+    padding-top: 20px;
+    margin-bottom: 0;
+    font-size: 42px;
+    
+}
+
+.btn_music{
+  background-color: gold;
+ border-color: gold;
+ cursor: pointer;
+}
+
+.btn_music:hover{
+   background-color: rgba(255, 217, 0, 0.562); 
+}
+
+.btn_pause{
+    border-color: rgb(211, 208, 208);
+    cursor: pointer;
+}
+
+
+
+
+.size{
+    width: 410px;
+    height: 105px; 
+    border: 1px solid rgb(196, 193, 193);
+    margin-top: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+h3{
+    background-color: rgb(235, 232, 232);
+    width: 400px;
+    height: 30px;
+    padding-top: 5px;
+    padding-left: 10px;
+    margin-top: 0;
+}
+
+.normal , .visible{
+    border-color: rgb(211, 208, 208);
+}
+
+.grow{
+    background-color: rgb(38, 38, 253);
+    border-color: rgb(2, 2, 207);
+}
+
+.grow:hover{
+    background-color: rgba(38, 38, 253, 0.897);
+}
+
+
+.shrink{   
+    background-color: rgb(252, 52, 52);
+    border-color: red;  
+}
+
+.shrink:hover{   
+    background-color: rgba(252, 52, 52, 0.863);
+}
+.same{
+    width: 95px;
+    height: 35px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.center{ 
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+   
+}
+
+.invisible{
+    background-color: aqua;
+    border-color: rgb(2, 197, 197);
+}
+
+.invisible:hover{
+    background-color: rgba(0, 255, 255, 0.705);
+}
+
+.center_2{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    padding-left: 100px;
+}
+
+.move{
+    height: 170px;
+}
+
+.other{
+    width: 105px;
+    margin-top: 10px;
+}
+
+.top, .bottom, .left, .right{
+    width: 40px;
+    height: 32px;
+}
+
+.center_3{
+    margin-left: 10%;
+}
+
+.second_part{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    right: 380px;
+    background-image: url('./images/1.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+
+.visible:hover{
+    background-color: rgb(90, 90, 90, 0.2);
+}
+
